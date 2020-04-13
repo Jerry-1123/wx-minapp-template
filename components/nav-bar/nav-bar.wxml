@@ -1,0 +1,7 @@
+<view class="bar" style="height:{{statusBarHeight+titleBarHeight}}px">
+	<view class="status-bar" style="height:{{statusBarHeight}}px"></view>
+	<view class="title-bar" style="height:{{titleBarHeight}}px" bindtap="goBack">
+		<image class="back-img" src="./back.png" />
+    <text class="back-txt">返回</text>
+	</view>
+</view>

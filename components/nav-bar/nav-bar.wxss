@@ -1,0 +1,45 @@
+.bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.title-bar {
+  display: flex;
+  align-items: center;
+  width: 200rpx;
+}
+
+.back {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+  padding: 10rpx;
+}
+
+.back::after {
+  content: "";
+  position: absolute;
+  left: -20rpx;
+  top: -20rpx;
+  right: -20rpx;
+  bottom: -20rpx;
+  z-index: 9999;
+}
+
+.back-img {
+  width: 38rpx;
+  height: 38rpx;
+  margin-left: 24rpx;
+  margin-right: 5rpx;
+}
+
+.back-txt {
+  color: #000;
+  font-size: 34rpx;
+}

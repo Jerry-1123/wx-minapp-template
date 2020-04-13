@@ -1,0 +1,20 @@
+page {
+  height: 100%;
+  /* 使用方法:var(red) */
+  --red: #e54d42;
+}
+
+image {
+  width: 100%;
+  display: block;
+}
+
+view,
+text,
+scroll-view {
+  box-sizing: border-box;
+}
+
+button::after {
+  display: none;
+}
